@@ -12,4 +12,15 @@ body {
 body article {
   display: flex;
   flex-wrap: wrap;
+}
+body section {
+  flex-grow: 1;
+  flex-basis: 45%;
+  border: 1px silver solid;
+  box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  padding: 16px;
+  margin: 16px;
+  clear: both;
+  overflow: auto;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
