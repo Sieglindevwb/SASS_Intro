@@ -8,12 +8,14 @@ body {
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background-attachment: fixed;
+  /*nesting*/
 }
 body article {
   display: flex;
   flex-wrap: wrap;
+  /*mixin*/
 }
-body section {
+body article article section {
   flex-grow: 1;
   flex-basis: 45%;
   border: 1px silver solid;
@@ -23,4 +25,30 @@ body section {
   clear: both;
   overflow: auto;
   box-sizing: border-box;
+}
+body article section#selling-points {
+  flex-grow: 2;
+  flex-basis: 100%;
+}
+body article pre {
+  background: #000;
+  border: 1px solid #ddd;
+  color: #666;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 16px;
+  display: block;
+  white-space: pre-wrap;
+}
+body article pre.before {
+  float: left;
+  width: 40%;
+}
+body article pre.after {
+  float: right;
+  width: 40%;
 }/*# sourceMappingURL=style.css.map */
