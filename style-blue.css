@@ -2,10 +2,10 @@
 /*variables*/
 body {
   font: 100% "Space Mono", monospace;
-  color: blue;
+  color: #362FD9;
   margin: 0px;
   padding: 16px;
-  background-color: white;
+  background-color: #EEEEEE;
   background-image: radial-gradient(#fff, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
@@ -21,7 +21,7 @@ body article section {
   flex-grow: 1;
   flex-basis: 45%;
   border: 1px silver solid;
-  box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  box-shadow: 10px 10px 19px -4px #362FD9;
   padding: 16px;
   margin: 16px;
   clear: both;
@@ -33,7 +33,7 @@ body article section#selling-points {
   flex-basis: 100%;
 }
 body section pre {
-  background: #000;
+  background: #2E97A7;
   border: 1px solid #ddd;
   color: #666;
   font-family: monospace;
@@ -55,7 +55,7 @@ body pre.after {
   width: 40%;
 }
 body h1 h2 h6 {
-  color: white;
+  color: #2E97A7;
 }
 body h1 {
   text-align: center;
@@ -70,8 +70,8 @@ body .message, body .warning, body .error, body .success {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
-  color: blue;
-  background-color: white;
+  color: #362FD9;
+  background-color: #EEEEEE;
 }
 body .success {
   background-color: green;
